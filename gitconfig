@@ -1,0 +1,23 @@
+[user]
+	name = Llawliet11
+	email = nia.fam.pixel@gmail.com
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[pull]
+	rebase = false
+
+[url "git@domain_map1.github.com:$ORGANIZATION1"]
+	insteadOf = git://git@github.com:ORGANIZATION1
+	insteadOf = https://github.com/ORGANIZATION1
+
+[core]
+	filemode = false	
+	autocrlf = input
+	
+[credential]
+	helper = store
