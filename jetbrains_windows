@@ -1,2 +1,4 @@
 [Shell path]
-"D:\cygwin64\bin\sh " -lic "source ~/.bash_profile; cd ${OLDPWD-.}; bash
+
+"D:\cygwin64\bin\sh" -lic 'cd "${OLDPWD-.}"; bash'
+"D:\cygwin64\bin\sh " -lic 'source ~/.bash_profile; cd ${OLDPWD-.}; bash'
