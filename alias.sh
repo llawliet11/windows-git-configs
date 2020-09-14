@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 cat <<EOT>> /home/bitnami/.bash_profile
 alias set_permission="sh /home/bitnami/windows-git-configs/permissions.sh "
