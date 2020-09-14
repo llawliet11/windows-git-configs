@@ -7,6 +7,7 @@ export BITNAMI_ROOT
 
 alias set_permission="sh /home/bitnami/windows-git-configs/permissions.sh "
 alias get_app="cd /opt/bitnami/apps"
+alias get_large_files="find . -printf '%s %p\n'| sort -nr | head -20"
 EOT
 
 . /home/bitnami/.bash_profile
